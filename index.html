@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    *{
+      padding:0px;margin:0px;
+      box-sizing:border-box;
+    }
+    /*body{
+      padding: 0px;margin:0px;
+      box-sizing:border-box;
+    }*/
+    .container{
+      position: fixed;
+      padding: 0px;margin:0px;
+      width:100%;
+      height:807px;
+      background-color: ghostwhite;
+      
+      
+      
+      transition: all 3s;
+      animation: 6s linear 0s kit;
+    }
+    header{
+      width:100%;
+      min-height:50px;
+      
+      display: flex;
+      background-image: linear-gradient(to left,#FB984B,#F55858 , #FB984B 70%);
+      
+    }
+    
+    header p{
+      padding: 9px 5px;
+      font-size: 13px;
+     color:white;
+      font-weight: bold;
+    }
+    .college_name{
+      width:83%;
+      min-height:50px;
+      
+    }
+    .power{
+      width:auto;height:50px;
+      margin-top: 3px;
+     
+    }
+    .power img{
+      width:30px;height:30px;
+      
+    }
+    .second{
+      width:100%;
+      height:280px;
+     
+    
+      
+    }
+    #college_photo{
+      width:100%;
+      height:280px;
+    }
+    .photo{
+      position: absolute;
+      bottom:475px;
+      width:100%;
+      height:280px;
+     
+     
+      display:flex;
+      flex-direction: column;
+    
+      justify-content:flex-end;
+      align-items:center;
+      
+
+    }
+   
+    .upermore_link{
+      width:95%;
+      height:80px;
+     
+      display:flex;
+      background-color: rgba(255,255,255,0.7);
+    
+      justify-content:center;
+      align-items:centr;
+      border-radius: 6px;
+    }
+    .morelink{
+      width:93%;
+      margin-top: 12px;
+     height:45px;
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      border-radius: 6px;
+      background-color: rgba(222,184,135,0.6);
+    }
+    .third{
+           width:100%;
+      min-height:80px;
+      
+display:flex;
+flex-direction:column;
+
+    }
+    .third_item_container{
+
+      
+      display:flex;
+      justify-content:center;
+      gap:48px;
+    }
+    .third_item{
+      width:52.5px;height:52.5px;  
+      border:1px solid lightskyblue;
+      border-radius:53px;
+      position:relative;
+      top:-18px;
+      background: ghostwhite;
+      }
+      .icon{
+        width:38px;height:38px;
+        margin: 5px 0px 0px 6.3px;
+        
+        
+      }
+      .name{
+        display:flex;
+      justify-content:center;
+      
+      align-items: center;
+      
+      }
+      ul{
+        display:flex;
+     /* justify-content:center;*/
+      
+      align-items: center;
+      gap:45px;
+      }
+      ul li{
+        list-style:none;
+        margin-top:-10px;
+       font-size: 15px;
+      }
+      #noti{
+        margin-left: 11px;
+      }
+      
+      
+      
+          .fourth{
+           width:100%;
+      min-height:80px;
+     
+display:flex;
+flex-direction:column;
+
+    }
+    .fourth_item_container{
+
+      
+      display:flex;
+      justify-content:center;
+      gap:50px;
+    }
+    .fourth_item{
+      width:52.5px;height:52.5px;  
+      border:1px solid lightskyblue;
+      border-radius:53px;
+      position:relative;
+      top:2px;
+      }
+      .name2{
+        display:flex;
+      justify-content:center;
+      
+      align-items: center;
+      
+      }
+      ul{
+        display:flex;
+     /* justify-content:center;*/
+      
+      align-items: center;
+      gap:45px;
+      }
+       ul li{
+        list-style:none;
+        
+       font-size: 15px;
+      }
+      #career,#contactus{
+        margin-left: 11px;
+        margin-top:10px;
+      }
+      
+      .fiveth{
+        width:100%;
+        min-height:30px;
+        
+        display: flex;
+justify-content: center;
+margin-top: 10px;
+      }
+      
+      .fiveth_item{
+        width:90%;
+background-color: rgba(222,184,135,0.5);
+height:40px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+      }
+      
+      .sixth{
+        width:100%;
+        min-height:60px;
+        
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top:8px;
+      }
+      .erp_logo{
+        
+        width:52.5px;height:52.5px;
+        border-radius:53px;
+        border:1px solid lightskyblue;
+      }
+      .seventh_item{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-size: 14px;
+        margin-top: 10px;
+        
+      }
+        .seventh_item p{
+          padding:1px 3px;
+        }
+        
+        
+      img{
+     
+       transition-property:all;
+    transition-duration:3s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0s;
+      }
+      #msg{
+      transition: all 0.5s linear;}
+   #msg:active{
+       transform: rotate(360deg);
+      }
+      
+       #img_news{
+      transition: all 0.5s linear;}
+      
+
+      #img_news:active{
+       transform: rotate(360deg);
+       
+        
+      }
+       #img_eventsgallery{
+      transition: all 0.5s linear;}
+#img_eventsgallery:active{
+  transform: rotate(360deg);
+  
+  
+}
+#img_career{
+      transition: all 0.5s linear;}
+#img_career:active{
+       transform: rotate(360deg);
+       
+        
+      }
+#img_contectus{
+      transition: all 0.5s linear;}
+      #img_contectus:active{
+       transform: rotate(360deg);
+       
+        
+      }
+      
+      #jp{
+      transition: all 0.5s linear;}
+     #jp:active{
+  transform: rotate(360deg);
+  animation: 3s;
+  
+}
+      
+      header,second,.photo,.third_item ,p,.morelink,p,img,.fiveth_item,p,li,.erp_logo,.fourth_item,.moreline {
+        animation: 4s linear 0s sonu;
+      }
+      @keyframes sonu{
+        0%{
+          background: white;
+          color:white;
+          border-color:white;
+          background-image:none;
+          display:none;
+        }
+        
+
+        
+        50%{
+          background-color: white;
+          color:white;
+          border-color: white;
+          display:none;
+        }
+        90%{
+         
+
+        }
+      }
+      @keyframes kit{
+        0%{
+         
+       background: white;
+       border-color: white;
+        
+      }
+        
+        50%{
+          background: white;
+          border-color: white;
+        }
+      }
+      .jump_logo{
+        border-radius:35px;
+      }
+   #jp{
+      border-radius:px;
+      width:47px;height:47px;
+      margin:5px 6px 9px 2px;
+
+}
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="college_name">
+        
+      
+      <p>KASHI INSTITUTE OF MANAGEMENT AND SCIENCE</p>
+      </div>
+      <div class="power">
+        <img sizes="" srcset="" src="/Asset/Power2.png" alt="">
+      </div>
+    </header>
+      
+      
+      <div class="second">
+       <img id="college_photo"sizes="" srcset="" src="/Asset/kit_image.png" alt=""> 
+        <div class="photo">
+                
+          <div class="upermore_link">
+            
+          
+            <div class="morelink">
+              <p>MORE LINKS</p>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+      
+      
+  <div class="third">
+    <div class="third_item_container">
+      
+    
+    <div class="third_item">
+      <a href="notification.html">
+      <img sizes="" class="icon" src="/Asset/message1.png" id="msg"></a>
+    </div>
+   
+      
+        <div class="third_item">
+    <a href="news_events.html">
+     
+       <img sizes="" class="icon" src="/Asset/news.png"id="img_news" alt=""></a>
+       
+       
+    </div>
+   <div class="third_item">
+   <a href="events_gallery.html"><img sizes="" class="icon" src="/Asset/calander.png" alt=""id="img_eventsgallery"></a>
+   </div>
+   </div>
+  
+   <div class="name">
+     
+  <ul>
+    <li id="noti">Notification</li>
+    <li id="news">News</li>
+    <li id="event">Events Gallery</li>
+  </ul>
+    
+   </div>
+    
+  </div>
+    
+    
+    
+      <div class="fourth">
+    <div class="fourth_item_container">
+      
+    
+    <div class="fourth_item">
+      <a href="career.html">
+<img sizes="" class="icon" src="/Asset/career.png" alt=""id="img_career"></a>
+    </div>
+    <div class="fourth_item">
+      <a href="contact_us.html">
+<img sizes="" class="icon" src="/Asset/contactus.png" alt=""id="img_contectus">
+      </a>
+    </div>
+    </div>
+    
+   <div class="name2">
+     
+  <ul>
+    <li id="career">Career</li>
+    <li id="contactus">Contact Us</li>
+    
+  </ul>
+    
+   </div>
+    
+  </div>
+    
+    
+    <div class="fiveth">
+      <div class="fiveth_item">
+        
+      
+      <p>EXPLORE ERP</p>
+      </div>
+    </div>
+    
+    <div class="sixth">
+      <div class="erp_logo">
+        <a href="student.html">
+          <img src="/Asset/ner erp.png" class="icon" class="jump_logo"/id="jp">
+
+        </a>
+        
+      </div>
+      <p>ERP</p>
+      
+    </div>
+    
+    
+    <div class="seventh">
+      <div class="seventh_item">
+        <p>Welcome To,</p>
+        <p>KASHI INSTITUTE OF MANAGEMENT AND SCIENCE</p>
+        <p>College Code: 1123</p>
+      </div>
+      
+    </div>
+    
+    
+    
+  </div>
+</body>
+
+</html>

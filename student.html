@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  
+  <style>
+  *{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+  }
+  body{
+    width:100vw;
+    height:100vh;
+    
+  }
+  .container{
+    position: relative;
+    width:100%;
+    min-height:100vh;
+    
+  }
+  .kit_photo img{
+    width:100%;height:auto;
+  }
+  .college_name{
+    width:100%;
+    min-height:40px;
+    position: absolute;
+    top:28px;
+    color:white;
+    background-color:rgba(255,165,1,0.4);
+    display :flex;
+    
+    justify-content: center;
+    align-items: center;
+  }
+  .student_photo{
+   
+    width:100%;min-height:60px;
+    display :flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: -60px;
+    
+  }
+   .student_photo img{
+     width:110px;height:110px;
+     border-radius: 110px;
+     border:2px solid whitesmoke;
+   }
+   .information {
+     width:100%;min-height:98px;
+     margin-top: px;
+     display :flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+   }
+   .information span{
+     font-weight: bold;
+     font-size: 14px;
+   }
+   
+   .dashboard_container{
+     width:100%;
+     height:45px;
+     background-color: ghostwhite;
+     margin-top: 12px;
+     display :flex;
+   
+    
+    align-items: center;
+   }
+   .dashboard_container p{
+     
+     margin-left: 10px;
+   }
+   
+   .same_container{
+     width:100%;height:50px;
+     background-color:rgba(0,0,0,0.1);
+     display :flex;
+    gap:15px;
+    align-items: center;
+    margin-top:1px;
+   }
+   .same_container:hover{
+     background-color:rgba(0,0,0,0.3);
+   }
+   .same_container img{
+     width:36px;height:36px;
+     
+     margin-left: 20px;
+   }
+
+   
+   a{
+     text-decoration: none;
+     color:black;
+   }
+   
+   
+  .student_container{
+     width:100%;
+     height:45px;
+     background-color: ghostwhite;
+     display :flex;
+     align-items: center;
+  }
+  .student_container p{
+     
+     margin-left: 10px;
+     
+   }
+   
+   
+   
+   .last_container{
+     width:100%;
+     height:100px;
+     background-color: ghostwhite;
+     margin-top: 5px;
+     display :flex;
+   flex-direction: column;
+   align-items: center;
+   }
+   .last_container p{
+     
+     margin-left: 5px;
+     padding-top: 10px;
+     font-style: italic;
+   }
+   .last_container p span{
+     font-weight: bold;
+     font-size: 14px;
+     
+   }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    
+    
+    <div class="kit_photo">
+      <img sizes="" srcset="" src="/Asset/kit_image.png">
+    </div>
+    
+    <div class="college_name">
+      <p>DEPARTMENT OF COMPUTER APPLICATION</p>
+    </div>
+    
+    <div class="student_photo">
+      <img src="/Asset/Sonu.jpg" alt="">
+      </div>
+    
+   
+    <div class="information">
+      <p><span>SONU KUMAR</span></p>
+      <p><span>CRN:</span>STKIMS23374</p>
+      <span>AFN:</span>
+       <p><span>URN:</span>112324407201</p>
+       <p>BCA/4/SECTION-C/112324407201</p>
+    </div>
+    
+    
+    <div class="dashboard_container">
+      <p>Dashboard</p>
+     </div>
+     
+    <a href="attandance.html">
+    <div class="same_container"id="location_container">
+      <img src="/Asset/redlocation.png" alt="" />
+      <p>Dashboard</p>
+    </div></a>
+    
+    
+    <div class="student_container">
+      <p>Student</p>
+     </div>
+    
+    <a href="download_question.html">
+    <div class="same_container"id="location_container">
+      <img src="/Asset/contectbook.png" alt="" />
+      <p>Download Question Bank/Notes</p>
+    </div>
+    </a>
+    
+    
+    
+    <a href="my_assignment.html">
+<div class="same_container" id="location_container">
+  <img src="/Asset/write.png.jpg" alt="" />
+  <p>My Assignment Marks</p>
+</div></a>
+
+
+<a href="Exam_res_off.html">
+<div class="same_container"id="location_container">
+      <img src="/Asset/write.png.jpg" alt="" />
+      <p>My Exam Result (Offline)</p>
+    </div>
+</a>
+    
+
+
+<a href="exam_res_onl.html">
+<div class="same_container" id="location_container">
+  <img src="/Asset/write.png.jpg " alt="" />
+  <p>My Exam Result (Online)</p>
+</div>
+</a>
+
+<a href="my_atten_stud.html">
+<div class="same_container"id="location_container">
+      <img src="/Asset/range.png" alt="" />
+      <p>My Attendance (Students)</p>
+    </div></a>
+    
+    
+    
+    <a href="daily_attandance_stu.html">
+<div class="same_container" id="location_container">
+  <img src="/Asset/range.png" alt="" />
+  <p>My Daily Attendance (Students)</p>
+</div>
+    </a>
+    
+    
+    <a href="my_dues.html">
+<div class="same_container"id="location_container">
+      <img src="/Asset/Drupal-conract-3.png" alt="" />
+      <p>My No Dues Form</p>
+    </div></a>
+    
+    
+    
+    
+    <div class="student_container">
+      <p>Library</p>
+     </div>
+     
+     <a href="books_item_issu.html">
+     <div class="same_container" id="location_container">
+  <img src="/Asset/books.png" alt="" />
+  <p>Books/Items Issued</p>
+</div>
+     </a>
+
+
+<a href="View_My_Lib.._Fine.html">
+<div class="same_container"id="location_container">
+      <img src="/Asset/M.png.jpg" alt="" />
+      <p>View My Library Fine</p>
+    </div>
+</a>
+      
+    <div class="student_container">
+      <p>Grievance Redressal</p>
+     </div>
+     
+     
+     <a href="submit_grievaance.html">
+     <div class="same_container" id="location_container">
+  <img src="/Asset/notebook.png" alt="" />
+  <p>Submit Grievance</p>
+</div>
+   </a>
+
+
+
+<div class="student_container">
+      <p>Extras</p>
+     </div>
+    
+    
+   <a href="notices_circular.html">
+    <div class="same_container"id="location_container">
+      <img src="/Asset/notices.png" alt="" />
+      <p>Notice/Circulars</p>
+    </div>
+   </a>
+    
+    <a href="academic_calandar.html">
+<div class="same_container" id="location_container">
+  <img src="/Asset/31.png" alt="" />
+  <p>Academic Calendar</p>
+</div>
+    </a>
+
+<a href="transport_route.html">
+<div class="same_container"id="location_container">
+      <img src="/Asset/bus.png" alt="" />
+      <p>Transport Route</p>
+    </div>
+</a>
+
+
+<div class="student_container">
+      <p>User Settings</p>
+     </div>
+
+    <a href="user_setting.html">
+    <div class="same_container"id="location_container">
+      <img src="/Asset/setting2.jpg" alt="" />
+      <p>Settings</p>
+    </div>
+    </a>
+    
+    
+    <a href=" index.html">
+<div class="same_container" id="location_container">
+  <img src="/Asset/readbook.jpg" alt="" />
+  <p>Home</p>
+</div>
+    </a>
+    
+    
+    <a href="logout.html">
+<div class="same_container"id="location_container">
+      <img src="/Asset/powerbold.png" alt="" />
+      <p>Log Out</p>
+    </div></a>
+
+    
+    
+    <div class="last_container">
+      <p>©Copyright 2025,All right reserved.</p>
+      <p>A product of <span>VriendeLike Technology</span></p>
+     </div>
+    
+    
+    
+    
+  </div>
+</body>
+
+</html>

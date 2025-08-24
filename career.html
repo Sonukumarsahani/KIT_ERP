@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    *{
+      padding:0px;
+      margin:0px;
+      box-sizing: border-box;
+    }
+    body{
+      width:100vw;height:100vh;
+      
+    }
+    .container{
+      position:static;
+      width:100%;min-height:1582px;
+      background-color: whitesmoke;
+      border:1px solid black;
+      transition: all 1s 0s;
+      margin-bottom: 30px;
+    }
+    .container:active{
+      heigh
+    }
+    header{
+      position:fixed;
+      width:100%;height:50px;
+      background-image: linear-gradient(to left,#F55858 , #FB984B 70%);
+      padding:0px 10px;
+      margin-top:-1px;
+    }
+    .iner_header{
+      width:100%;height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      
+    }
+     .group_3{
+      width:33%;height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .group_3 img{
+      width:30px;height:30px;
+      
+filter: invert(1000%)sepia(9%)saturate(0%) hue-rotate(27deg)brightness(100%)contrast(100%);
+    }
+    .group_3 p{
+      color:white;
+    }
+    .dot3{
+      width:30px;height:30px;
+     
+    }
+      .dot3 img{
+      width:28.5px;height:30px;
+      
+      filter: invert(1000%)sepia(9%)saturate(0%) hue-rotate(27deg)brightness(100%)contrast(100%);
+    }
+    
+    #not_found{
+      width:100%;min-height:120px;
+      margin-top:48px;
+      margin-left: 4px;
+      font-size:1rem;
+      padding:20px 12px 6px 10px;
+     
+      display:flex;
+      justify-content:center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 15px;
+    }
+    footer{
+      width:100%;
+      height:43px;
+      background:white;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      position:fixed ;
+      bottom: 0px;
+      border:1px solid gray;
+       box-shadow:0px 1px 10px black;
+       
+    }
+    
+    .footer_div{
+      width:50%;height:40px;
+      
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-aroun;
+      transition:all 1s,0s;
+
+      
+    }
+    footer .footer_div img{
+      width:27px;height:27px;
+
+    }
+    footer .footer_div p{
+      position:relative;
+      font-size: 13px;
+      margin-left: 4px;
+      font-size: 16px;
+      color:black;
+    }
+    a{
+      text-decoration: none;
+      color:black;
+    }
+   
+    .footer_div:active{
+     {
+      background-color:green;
+    }
+    }
+    
+    
+    .second{
+      width:100%;height:43px;
+      
+      background-color: lightskyblue;
+      
+    
+      margin-top: px;
+      
+      font-size:1rem;
+      display: flex;
+      padding-left:10px;
+      align-items: center;
+    }
+    #title1{
+      margin-top:10px;
+    }
+    
+    label{
+      margin:2px 0px 7px 15px;
+      width:70%;
+      height:30px;
+    }
+    .input1{
+      width:80%;
+      height:45px;
+      margin:2px 10px 10px 15px ;
+      outline-color: none;
+      border: 1px solid deepskyblue;
+      border-radius: 5px;
+      box-shadow: 0px 0px 1px deepskyblue;
+    }
+    input,textarea:focus{
+      outline: none;
+    }
+    
+    select,.last{
+      width:30%;
+      height:45px;
+      margin:2px 10px 10px 15px ;
+      outline-color: none;
+      border: 1px solid deepskyblue;
+      border-radius: 5px;
+      box-shadow: 0px 0px 1px deepskyblue;
+      padding-left:8px;
+    }
+    textarea{
+      width:80%;
+     border-radius: 5px;
+      margin:2px 10px 10px 15px ;
+      outline-color:3px solid deepskyblue;
+      border-color:deepskyblue;
+    }
+    button{
+     transition: all 0s 0s;
+     width:50%;
+     border:none;
+     background-color: transparent;
+     height:38px;
+     margin-left:-10px;
+    }
+   #need{
+     transition: all 0s 0s;
+    }
+    #need:active{
+      background-color: darkslateblue;
+    }  
+    #send:active{
+      background-color: darkslateblue;
+    }
+    .gender{
+      margin-top: 7px;
+      margin-bottom: 20px;
+    }
+    #dob{
+    margin-left:15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+      width:250px;
+      height:40px;
+    }
+        #pan{
+    
+    margin:12px 0px 15px 15px;
+      width:250px;
+      height:40px;
+    }
+    .Name{
+      margin: 10px 0px 1px 15px;
+    }
+    #highest{
+      width:80%;
+    }
+    .experience {
+    
+      width:80%;
+      height:75px;
+     
+    }
+    .group2{
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height:70px;
+      width:100%;
+     
+    }
+    #mm{
+      /*margin:1.2px 0px 0px 15pxpx;padding:0px;*/
+      width:42%;
+      margin-left:30px;
+      
+    }
+    #yy{
+      margin-right:-28px;
+      width:42%;
+    }
+    #application_for{
+      margin:15px 0px;
+      
+    }
+    #application_for p{
+      margin-left: 6px;
+    }
+    .last{
+      width:80%;
+      display: flex;
+      align-items: center;
+    }
+  </style>
+</head>
+
+<body>
+  <form action="">
+  <div class="container">
+    <header>
+      <div class="iner_header">
+        <div class="group_3">
+          <a href="left_home.html">
+          <img sizes="" srcset="" src="/Asset/triple_line.png" alt=""></a>
+          <p>CAREER</p>
+        </div>
+        <div class="dot3">
+          <img sizes="" srcset="" src="/Asset/dot3.png" alt="">
+        </div>
+        
+      </div>
+    </header>
+    <div id="not_found">
+      <p>Please Complete the form below to <b>Apply Online.</b></p>
+      <p>Be sure to fill the correct details for further</p>
+      <p>communication.</p>
+    </div>
+    
+    <div class="second">
+      <p>Personal Details</p>
+    </div>
+    <label for=""><span id="title1">Title</span>
+    </label><br />
+    <select name="" id=""required>
+      <option value="">Mr.</option>
+      <option value="">Mis</option>
+       <option value="">sir</option>
+      <option value="">ma'am</option>
+      
+      
+    </select><br />
+    
+    <label for="">Name</label><br />
+    <input type="text" class="input1" id="" value="" placeholder="Enter Your Name!"required/><br />
+    
+     <label for="">E-mail</label><br>
+    <input type="email" class="input1" id="" value="" placeholder="Enter Your E-mail-Id!"required/><br />
+    
+   <label for="">Contact No.</label><br />
+ <input type="number" class="input1"maxlanght="10" id="" value="" placeholder="Enter Your Contact No.!" required/><br />
+
+<label for="">Gendar</label>
+<div class="gender">
+  <label for="Male">Male</label>
+  <input type="radio" name="gdn" id="Male"required>
+  <label for="Female">Female</label>
+  <input type="radio" name="gdn" id="Female"required>
+</div>
+
+<label for="">D.O.B.</label>
+<br />
+  <input type="date" name="" id="dob" value="" required/><br />
+
+<label for="">PAN</label>
+<br />
+  <input type="text" name="" id="pan" placeholder="Enter Your PAN No.!"required/><br />
+
+
+ 
+<div class="second">
+      <p>Qualification & Experience</p>
+    </div>
+    
+    
+   <div class="">
+     <p class="Name">Highest Qualification</p>
+     <select name="" id="highest" class=""required>
+       <option value="">--Select--</option>
+       <option value="">Hacker</option>
+     </select>
+     
+   </div>
+  
+    <div class="experience">
+      <p class="Name">Experience (Teaching)</p>
+      <div class="group2">
+        
+      
+      <select name="" id="yy"required>
+        <option value="">YY</option>
+        <option value="">2025</option>
+        <option value="">2024</option>
+        
+      </select>
+      
+      <select name="" id="mm"required>
+        <option value="">MM</option>
+        <option value="">January</option>
+        <option value="February">February</option>
+      </select>
+       </div>
+    </div>
+    
+    
+     <div class="experience">
+      <p class="Name">Experience (Research)</p>
+      <div class="group2">
+      <select name="" id="yy"required>
+        <option value=""required>YY</option>
+         <option value="">2025</option>
+        <option value="">2024</option>
+      </select>
+      
+      <select name="" id="mm"required>
+        <option value="">MM</option>
+        <option value="">January</option>
+        <option value="February">February</option>
+      </select>
+       </div>
+    </div>
+    
+ <div class="experience">
+      <p class="Name">Experience (Industry)</p>
+      <div class="group2">
+        
+      
+      <select name="" id="yy"required>
+        <option value="">YY</option>
+        <option value="">2025</option>
+        <option value="">2024</option>
+      </select>
+      
+      <select name="" id="mm"required>
+        <option value="">MM</option>
+<option value="">January</option>
+<option value="February">February</option>
+      </select>
+       </div>
+    </div>
+    
+    <div class="second"id="application_for">
+      <p>Application For</p>
+    </div>
+    
+    <div class="">
+     <p class="Name">Post Application For</p>
+     <select name="" id="highest" class=""required>
+       <option value="">--Select--</option>
+       <option value="Hacker">Computer</option>
+     </select>
+     
+   </div>
+    
+    
+<div class="">
+  <p class="Name">Department </p>
+  <select name="" id="highest" class=""required>
+    <option value="">--Select--</option>
+    <option value="BCA">BCA</option>
+  </select>
+  
+</div>
+    
+    
+<div class="">
+  <p class="Name">Profile</p>
+  <select name="" id="highest" class=""required>
+    <option value="">--Select--</option>
+    <option value="">None</option>
+  </select>
+  
+</div>
+    
+     <p class="Name">Upload Your Resume</p>
+    <div class="last">
+ 
+<input type="file" name="" id="last_file" value="" required/>
+  
+</div>
+    
+    
+    
+    <footer>
+   <div class="footer_div"id="send">
+    <img src="/Asset/hold_image.png" alt="" />
+           <button type="submit"id="btn">Send
+           </button>
+
+      </div>
+
+     <!-- <div class="footer_div"id="need">
+       <a href="need_help.html"><img src="/Asset/whatsapp.png" /></a>
+       
+        <a href="need_help.html"><p>Need Help ?</p></a>
+      </div>
+      -->
+      <div class="footer_div"id="send">
+    <img src="/Asset/reset.png" alt="" />
+           <button type="reset"id="btn">Reset
+           </button>
+
+      </div>
+    </footer>
+    
+    
+    
+  </div>
+  </form>
+</body>
+
+</html>

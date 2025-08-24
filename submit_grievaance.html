@@ -1,0 +1,386 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Submit Grievance</title>
+<style>
+    *{
+      padding:0px;
+      margin:0px;
+      box-sizing: border-box;
+    }
+    body{
+      width:100vw;heigh;
+    }
+    .container{
+      position: relative;
+      width:100%;
+      min-height:1062px;
+      background-color: whitesmoke;
+      border:1px solid black;
+      transition:all 1s,1s;
+      
+
+
+    }
+    header{
+      position:fixed;
+      width:100%;height:50px;
+      background-image: linear-gradient(to left,#F55858 , #FB984B 70%);
+      padding:0px 10px;
+      margin-top: -1px;
+    }
+    .iner_header{
+      width:100%;height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      
+    }
+     .group_3{
+      width:60%;height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .group_3 img{
+      width:30px;height:30px;
+      
+filter: invert(1000%)sepia(9%)saturate(0%) hue-rotate(27deg)brightness(100%)contrast(100%);
+    }
+    .group_3 p{
+      color:white;
+      
+    }
+    .dot3{
+      width:30px;height:30px;
+     
+    }
+
+    #not_found{
+      margin-top:35px;
+      margin-left: 10px;
+      font-size:1rem;
+    }
+    
+    
+footer{
+      width:100%;
+      height:50px;
+      background:white;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      position:fixed;
+      bottom: 0px;
+      border:1px solid gray;
+       box-shadow:0px 1px 10px black;
+      
+       
+    }
+    
+    .footer_div{
+      width:50%;height:50px;
+      
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-aroun;
+      transition:all 1s,0s;
+
+      
+    }
+    footer .footer_div img{
+      width:27px;height:27px;
+
+    }
+    footer .footer_div p{
+      position:relative;
+      font-size: 13px;
+      margin-left: 4px;
+      font-size: 16px;
+      color:black;
+    }
+    a{
+      text-decoration: none;
+      color:black;
+    }
+   
+    .footer_div:active{
+     {
+      background-color:green;
+    }
+    }
+    
+    
+    button{
+     transition: all 0s 0s;
+     min-width:50%;
+     border:none;
+     background-color: transparent;
+     height:38px;
+     margin-left:10px;
+    }
+    .footer:active{
+      height:750px;
+    }
+   #need{
+     transition: all 0s 0s;
+    }
+    #need:active{
+      background-color: darkslateblue;
+    }  
+    #send:active{
+      background-color: darkslateblue;
+    }
+     #send:active select{
+       height:89px;
+     }
+     
+
+     .first_container {
+       width:100%;min-height:80px;
+       padding:20px 15px;
+       display:flex;
+       flex-direction: column;
+       gap:0px;
+     }
+   .first_container p{
+     
+     padding-left:5px;
+   }
+     
+     span{
+       color:red;
+     }
+     .first_item{
+       width:98%;
+       height:40px;
+       background-color: rgba(0,0,0,0.1);
+     border-radius: 5px;
+       border:1px solid lightskyblue;
+       display:flex;
+       align-items: center;
+       
+     }
+.second_container{
+  width:100%;min-height:80px;
+ 
+  padding-left:5px;
+ background-color:mistyrose;
+  font-size: 13.6px;
+  display:flex;
+  flex-direction: column;
+  
+  gap:2px;
+  
+}
+
+.third{
+  width:100%;
+  height:40px;
+  margin-top:35px;
+  background-color:lightblue;
+  display :flex;
+  align-items: center;
+}
+.third p{
+  padding-left:15px;
+
+color:darkblue;
+}
+.fourth_container{
+  width:100%;min-height:500px;
+  background-color: white;
+  
+  padding:10px 28px;
+}
+
+.fourth_container label{
+      margin-top:15px;
+      
+     }
+
+     select,input{
+      min-width:100%;height:40px;
+      box-shadow: 2px -1px 2px gray;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      outline:none;
+    }
+    select:active{
+      box-shadow: 4px -1px 3px darkblue;
+      border:1px solid blue;
+      
+    }
+    input:active{
+      box-shadow: 2px -1px 3px yellow;
+      border:2px solid blue;
+      
+    }
+    textarea:active{
+      box-shadow: 2px -1px 3px yellow;
+      border:2px solid blue;
+      
+    }
+    #subject{
+      outline:none;
+      border:1px solid black;
+    }
+    
+    textarea{
+      min-width:100%;height:190px;
+      box-shadow: 2px -1px 2px lightblue;
+      border-radius: 5px;
+      margin-bottom: 10px;
+      outline:none;
+      border:1px solid black;
+    }
+    #last{
+      min-width:18%;height:26px;
+      box-shadow:none;
+      border-radius: 1px;
+      margin-bottom: 0px;
+      padding-left: 10px;
+    }
+    .last_text{
+      color:gray;
+      padding: 15px 0px;
+      
+    }
+    .list_of_greivance{
+      width:100%;height:40px;
+      display: flex;
+      align-items: center;
+      background-color: lightgreen;
+      margin-top:25px;
+    } 
+    .list_of_greivance p{
+      padding-left:15px;
+      color:green;
+    }
+    
+    
+    #notebook{
+      
+      position: relative ;
+      left:32px;
+      bottom:11px;
+    }
+    #reset_img{
+      position: relative ;
+      left:28px;
+      width:20px;
+      height:20px;
+    }
+
+
+
+    </style>
+    </head>
+    <body>
+      
+      
+         <div class="container">
+    <header>
+      <div class="iner_header">
+        <div class="group_3">
+          
+          <a href="student.html">
+          <img sizes="" srcset="" src="/Asset/triple_line.png" alt=""></a>
+          <p>SUBMIT GRIEVANCE</p>
+        </div>
+      </div>
+    </header>
+
+
+
+
+         <div id="not_found">
+           
+         </div>
+<div class="first_container">
+  <label for="Name">Name <span>*</span></label>
+  <div class="first_item">
+    <p>SONU KUMAR</p>
+  </div>
+
+  <label for="Name">CRN/URN <span>*</span></label>
+  <div class="first_item">
+    <p>STKIMS23374</p>
+  </div>
+
+</div>
+
+
+
+
+<div class="second_container">
+  <p><b>Note:</b>Please select the appropriate <b>Grievance Category</b></p><p> and <b>Problem Area</b> to submit your grievance .This will help</p><p> the concerned department to reach out you to resolve</p><p>your query/concerns.</p>
+</div>
+
+<div class="third">
+  <p>Grievance Category</p>
+</div>
+
+
+<div class="fourth_container">
+  <label for="">Grievance Category <span>*</span></label><br />
+  <select name="" id="">
+    <option value="---Select---">---Select---</option>
+  </select>
+  
+  
+  <label for="">Problem Area <span>*</span></label><br />
+  <select name="" id="">
+    <option value="---Select---">---Select---</option>
+  </select>
+  
+  
+  <label for="subject">Subject<span>*</span></label><br />
+ <input type="text"name="" id="subject" placeholder="Enter the Subject">
+  
+ <label for="subject">Query/Grievance<span>*</span></label><br />
+ <textarea name="" id= rows="10" cols="20"placeholder="Describe your Query."></textarea>
+
+
+ <label for="subject">Attachment (if any)</label><br />
+ <div class="first_item"id="last_div">
+   <input type="file" name="" id="last" value="" />
+ </div>
+ 
+ 
+ <div class="last_text">
+   <p><i>Note : Allowed file formats are .doc, .docx and .pdf, maximum of <b>4 MB</b>size.</i></p>
+   
+ </div>
+ 
+</div>
+
+<div class="list_of_greivance">
+  <p>LIST OF GRIEVANCE</p>
+</div>
+
+  <footer>
+   <div class="footer_div"id="send">
+    <img src="/Asset/notebook.png" alt=""id="notebook" />
+           <button type="submit"id="btn">Submit <br>Grievances </button>
+
+      </div>
+
+
+      <div class="footer_div"id="send">
+    <img src="/Asset/reset.png" alt="" id="reset_img"/>
+           <button type="reset"id="btn">Reset
+           </button>
+
+      </div>
+    </footer>
+    
+    
+    </body>
+    </html>

@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    
+      *{
+      padding:0px;
+      margin:0px;
+      box-sizing: border-box;
+    }
+    body{
+      width:100vw;heigh;
+    }
+
+    .container{
+      position: relative;
+      width:100%;height:770px;
+      background-color: whitesmoke;
+      border:1px solid black;
+      transition:all 1s,1s;
+      margin-top: -1px;
+    }
+    header{
+      position:fixed;
+      width:100%;height:50px;
+      background-image: linear-gradient(to left,#F55858 , #FB984B 70%);
+      padding:0px 10px;
+    }
+    .iner_header{
+      width:100%;height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      
+    }
+     .group_3{
+      width:80%;height:50px;
+      display:flex;
+      align-items: center;
+      
+    }
+    .group_3 img{
+      width:30px;height:30px;
+      
+filter: invert(1000%)sepia(9%)saturate(0%) hue-rotate(27deg)brightness(100%)contrast(100%);
+    }
+    .group_3 p{
+      color:white;
+      font-size: 14px;
+      padding-left:20px;
+      
+    }
+  
+     .dot3 img{
+      width:24.5px;height:24.5px;
+      filter: invert(10%)sepia(91%)saturate(6442%) hue-rotate(27deg)brightness(94%)contrast(200%);
+    }
+   
+        .first_container{
+       width:100%;
+       min-height:100px;
+      
+       
+
+       margin-top:70px;
+       padding-left:1px;
+       border-bottom:1px solid gray;
+       padding-bottom: 20px;
+       padding-left:15px;
+     }
+   
+   
+   
+   .second_container{
+      padding-left:15px;
+      padding-top: 20px;
+      padding-bottom: 32px;
+      display:flex;
+      flex-direction: column;
+      gap:20px;
+    }
+    .second_item_second input{
+      width:52%;height:36px;
+    
+      margin-bottom: px;
+      border-radius: 5px;
+      border-color:1px solid lightskyblue;
+      outline:none;
+      box-shadow: 0px 0px 3px lightskyblue;
+      background: transparent ;
+      border:none;
+      
+      margin-left: 1px;
+      
+        
+       
+       display:flex;
+       align-items: center;
+      
+      
+      border-radius: 5px;
+      border:1px solid lightskyblue;
+      font-size: 1rem;
+      
+    }
+    #percentage{
+      position: absolute;
+      left:55%;
+      top: 37%;
+    }
+    .fourth{
+      width:100%;height:50px;
+      
+      background-color:rgba(255,165,1,0.1);
+      display:flex;
+      align-items: center;
+    }
+    .fourth p{
+      padding-left:15px;
+      color: saddlebrown;
+    }
+   
+       .fiveth{
+      width:100%;min-height:120px;
+      
+      padding:17px 0px;
+      
+
+      
+    }
+    .fiveth p{
+      padding-left:15px;
+      font-size: 15px;
+      padding:3px 15px;
+    }
+   
+       .sixth{
+      width:100%;height:50px;
+      
+      background-color: ghostwhite;
+      display:flex;
+      align-items: center;
+    }
+    .sixth p{
+      padding-left:15px;
+      color: saddlebrown;
+    }
+   .sixth p span{
+     color:red;
+   }
+   
+  .seventh{
+      width:100%;min-height:120px;
+      padding:17px 0px;
+      
+    }
+    .seventh p{
+      padding-left:px;
+      font-size:14.8px;
+      padding:3px 5px;
+    }
+   .seventh  ul {
+     color:red;
+     padding-left:25px;
+     font-size: 15.2px;
+   }
+   
+   
+   
+   
+    footer{
+      width:100%;
+      height:55px;
+      background:white;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      position:fixed;
+      bottom: 0px;
+      border:1px solid gray;
+       box-shadow:0px 1px 10px black;
+       
+       padding-right: 20px;
+    }
+    
+    .footer_div{
+      width:50%;height:50px;
+      
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-aroun;
+      transition:all 1s,0s;
+
+      
+    }
+    footer .footer_div img{
+      width:20px;height:20px;
+
+    }
+    footer .footer_div p{
+      position:relative;
+      font-size: 13px;
+      margin-left: 4px;
+      font-size: 16px;
+      color:black;
+    }
+    a{
+      text-decoration: none;
+      color:black;
+    }
+    button{
+     transition: all 0s 0s;
+     width:50%;
+     border:none;
+     background-color: transparent;
+     height:38px;
+     margin-left:-10px;
+    }
+  
+
+    #need:active{
+      background-color: darkslateblue;
+    }  
+    #send:active{
+      background-color: darkslateblue;
+    }
+
+     
+     .download{
+       width:50%;
+     }
+     #right_img{
+       position: relative;
+       bottom:1px;
+       left:4px;
+     }
+          #readbook_img{
+       position: relative;
+       bottom:5px;
+       left:45px;
+     }
+     #reset_img {
+       position: relative;
+       bottom: 1px;
+       left: 25px;
+     }
+
+
+
+   #change{
+       position: relative;
+       left:1px;
+       bottom:5x;
+     }
+          #dld_name{
+       position: relative;
+       bottom:px;
+       left:1px;
+     }
+     #btn{
+       position: relative;
+       left:20px;
+     }
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    
+
+  <header>
+      <div class="iner_header">
+        <div class="group_3">
+          <img id="power" srcset="" src="/Asset/triple_line.png" alt="">
+
+          <p>MY NO DUES FORM</p>
+        </div>
+        <div class="dot3">
+
+        </div>
+        
+      </div>
+    </header>
+  
+  
+  
+  <div class="first_container">
+<table class="" border="0">
+  <tr>
+    <td>Roll No.</td>
+    <td>112324407201</td>
+  </tr>
+  <tr>
+    <td>(URN):</td>
+  </tr>
+    <tr>
+      <td>Program</td>
+      <td id="bca">BCA</td>
+      <td>Branch</td>
+      <td>N/A</td>
+      
+    </tr>
+    <tr>
+      <td>Year/Sem</td>
+      <td id="four">4</td>
+      <td>Search</td>
+      <td>Section-C</td>
+    </tr>
+</table>
+</div>
+
+
+<div class="second_container">
+  <div class="second_item_first">
+    <label for="">Reason of Leaving</label><br />
+    <input type="radio" name="leave" id="course" value="" />
+    <label for="course">Course Completed</label>
+    
+  
+    <input type="radio" name="leave" id="Other" value="" />
+      <label for="Other">Other</label>
+  </div>
+  
+ <div class="second_item_second">
+   <label for="">Result of Course Attended</label>
+   <br />
+   <input type="number" name="" id=""placeholder="Enter Percentage"><span id="percentage">%</span>
+ </div>
+</div>
+
+  <div class="fourth">
+    <p><b>Dues Cetegory: </b>general</p>
+  </div>
+  
+  <div class="fiveth">
+    <p><b>Pepartment:</b>Pharmacy</p>
+    <p><b>Contact Person:</b>Mr.Siddarth Tiwari(FCKIPV2430)</p>
+    <p><b>Marked On:</b>N/A</p>
+    <p><b>Marked By</b>N/A</p>
+    
+    
+  </div>
+ 
+ 
+   <div class="sixth">
+    <p>Clear Status: <span>No</span></p>
+  </div>
+  
+  
+  <div class="seventh">
+    <p><b>Note:</b></p>
+    <ul>
+      <li>You must "submit Request" First,Inorder to download yout No Dues Form.</li>
+      <li>Once you have submitted your details,you will not be able to edit it later.</li>
+    </ul>
+  </div>
+
+
+
+
+
+
+
+<footer>
+      <div class="footer_div"id="send">
+      <img id="right_img"src="/Asset/right.png" alt="" />
+           <button type="Downloadw"class="download"id="btn">Password</span>
+           </button>
+      </div>
+
+
+
+
+            <div class="footer_div"id="send">
+                    <a href="kashi.html">
+      <img id="readbook_img"src="/Asset/download.jpg" alt="" /></a>
+           <button type="Download2"class="download"id="btn"><span id="dld_name"><span id="change"></span><br /><a href="/udemy/Assignment /Kit/index/kashi.html">Home</a></span>
+           </button>
+      </div>
+      
+      
+      
+       <div class="footer_div"id="send">
+      <img id="reset_img"src="/Asset/reset.png" alt="" />
+           <button type="Download1"class="download"id="btn">In</span>
+           </button>
+      </div>
+
+    </footer>
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   </div>
+</body>
+
+</html>

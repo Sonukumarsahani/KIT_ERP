@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <style>
+    *{
+      padding:0px;
+      margin:0px;
+      box-sizing: border-box;
+    }
+    body{
+      width:100vw;height:100vh;
+    }
+    .container{
+      position: relative;
+      width:100%;height:708px;
+      background-color: whitesmoke;
+      border:1px solid black;
+      transition:all 1s,1s;
+    }
+    header{
+      position:fixed;
+      width:100%;height:50px;
+      background-image: linear-gradient(to left,#F55858 , #FB984B 70%);
+      padding:0px 10px;
+    }
+    .iner_header{
+      width:100%;height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      
+    }
+     .group_3{
+      width:50%;height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .group_3 img{
+      width:30px;height:30px;
+      
+filter: invert(1000%)sepia(9%)saturate(0%) hue-rotate(27deg)brightness(100%)contrast(100%);
+    }
+    .group_3 p{
+      color:white;
+      
+    }
+    .dot3{
+      width:30px;height:30px;
+     
+    }
+      .dot3 img{
+      width:28.5px;height:30px;
+      
+      filter: invert(1000%)sepia(9%)saturate(0%) hue-rotate(27deg)brightness(100%)contrast(100%);
+    }
+    
+    #not_found{
+      margin-top: 70px;
+      margin-left: 10px;
+      font-size:1rem;
+    }
+    footer{
+      width:100%;
+      height:40px;
+      background:white;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      position: absolute ;
+      bottom: 0px;
+      border:1px solid gray;
+       box-shadow:0px 1px 10px black;
+    }
+    a{
+      text-decoration: none;
+    }
+    .footer_div{
+      width:33%;height:40px;
+      
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-aroun;
+    }
+    footer .footer_div img{
+      width:27px;height:27px;
+    
+    }
+    footer .footer_div p{
+      position:relative;
+      font-size: 13px;
+      margin-left: 4px;
+      font-size: 16px;
+      color:black;
+    }
+    
+   
+    .container:active{
+      height:750px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div class="iner_header">
+        <div class="group_3">
+          
+          <a href="left_home.html">
+          <img sizes="" srcset="" src="/Asset/triple_line.png" alt=""></a>
+          <p>EVENTS GALLERY</p>
+        </div>
+        <div class="dot3">
+          <img sizes="" srcset="" src="/Asset/dot3.png" alt="">
+        </div>
+        
+      </div>
+    </header>
+    <p id="not_found">No Events Found!</p>
+    
+    
+    <footer>
+      <div class="footer_div">
+        <a href="contact_us.html">
+        <img src="/Asset/hold_image.png" alt="" /></a>
+        <a href="contact_us.html"><p>Contact</p></a>
+      </div>
+
+       <div class="footer_div">
+       <a href="kashi.html "><img src="/Asset/readbook.jpg" alt="" /></a>
+       <a href="index.html"><p>Home</p></a>
+      </div>
+      
+      <div class="footer_div">
+       <a href="attandance.html"><img src="/Asset/jump_logo2.jpg" /></a>
+       
+        <a href="attandance.html"><p>ERP</p></a>
+      </div>
+      
+    </footer>
+    
+    
+    
+  </div>
+ 
+</body>
+
+</html>

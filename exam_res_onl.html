@@ -1,0 +1,209 @@
+<html>
+<head>
+<style>
+    *{
+      padding:0px;
+      margin:0px;
+      box-sizing: border-box;
+    }
+    body{
+      width:100vw;heigh;
+    }
+    .container{
+      position: relative;
+      width:100%;height:708px;
+      background-color: whitesmoke;
+      border:1px solid black;
+      transition:all 1s,1s;
+      
+
+
+    }
+    header{
+      position:fixed;
+      width:100%;height:50px;
+      background-image: linear-gradient(to left,#F55858 , #FB984B 70%);
+      padding:0px 10px;
+    }
+    .iner_header{
+      width:100%;height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      
+    }
+     .group_3{
+      width:75%;height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .group_3 img{
+      width:30px;height:30px;
+      
+filter: invert(1000%)sepia(9%)saturate(0%) hue-rotate(27deg)brightness(100%)contrast(100%);
+    }
+    .group_3 p{
+      color:white;
+      
+    }
+    .dot3{
+      width:30px;height:30px;
+     
+    }
+
+    #not_found{
+      margin-top:10px;
+      margin-left: 10px;
+      font-size:1rem;
+    }
+footer{
+      width:100%;
+      height:50px;
+      background:white;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      position:fixed;
+      bottom: 0px;
+      border:1px solid gray;
+       box-shadow:0px 1px 10px black;
+       margin-left:-10px;
+       
+    }
+    
+    .footer_div{
+      width:50%;height:50px;
+      
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-aroun;
+      transition:all 1s,0s;
+
+      
+    }
+    footer .footer_div img{
+      width:27px;height:27px;
+
+    }
+    footer .footer_div p{
+      position:relative;
+      font-size: 13px;
+      margin-left: 4px;
+      font-size: 16px;
+      color:black;
+    }
+    a{
+      text-decoration: none;
+      color:black;
+    }
+   
+    .footer_div:active{
+     {
+      background-color:green;
+    }
+    }
+    select{
+      width:92%;height:40px;
+      margin-left: 12px;
+      margin-top: 3px;
+    }
+    
+    button{
+     transition: all 0s 0s;
+     width:50%;
+     border:none;
+     background-color: transparent;
+     height:38px;
+     margin-left:-10px;
+    }
+    .footer:active{
+      height:750px;
+    }
+   #need{
+     transition: all 0s 0s;
+    }
+    #need:active{
+      background-color: darkslateblue;
+    }  
+    #send:active{
+      background-color: darkslateblue;
+    }
+     #send:active select{
+       height:89px;
+     }
+
+     .roll_number{
+       width:92%;height:40px;
+       background-color:rgba(0,0,0,0.1);
+       display:flex;
+       align-items: center;
+      margin-left: 12px;
+      margin-top: 2px;
+      border-radius: 5px;
+      border:1px solid lightskyblue;
+     }
+     #urn{
+       margin-left:12px;
+       margin-top: 10px;
+     }
+
+    </style>
+    </head>
+    <body>
+      <form>
+      
+         <div class="container">
+    <header>
+      <div class="iner_header">
+        <div class="group_3">
+          
+          <a href="student.html">
+          <img sizes="" srcset="" src="/Asset/triple_line.png" alt=""></a>
+          <p>MY EXAM RESULT (ONLINE)</p>
+        </div>
+        <div class="dot3">
+          <img sizes="" srcset="" src="/Asset/dot3.png" alt="">
+        </div>
+        
+      </div>
+    </head>
+<body>
+  <p id="urn">
+    Roll No.(URN)
+  </p>
+<div class="roll_number">
+  <p>112324407201</p>
+  
+</div>
+    
+        <p id="not_found">Exam</p>
+        <select name="" id="" class=""required>
+          <option value="">---Select---</option>
+   <option value="">Computer Graphics Multimedia Applications</option
+        </select>
+    
+
+        <footer>
+   <div class="footer_div"id="send">
+    <img src="/Asset/eye1.png" alt="" />
+           <button type="submit"id="btn">View
+           </button>
+
+      </div>
+
+
+      <div class="footer_div"id="send">
+    <img src="/Asset/reset.png" alt="" />
+           <button type="reset"id="btn">Reset
+           </button>
+
+      </div>
+    </footer>
+    
+    </form>
+    </body>
+    </html>

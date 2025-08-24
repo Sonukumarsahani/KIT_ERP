@@ -1,0 +1,327 @@
+
+<html>
+<head>
+<style>
+    *{
+      padding:0px;
+      margin:0px;
+      box-sizing: border-box;
+    }
+    body{
+      width:100vw;heigh;
+    }
+    .container{
+      position: relative;
+      width:100%;
+      min-height:708px;
+      background-color: whitesmoke;
+      border:1px solid black;
+      transition:all 1s,1s;
+      
+
+
+    }
+    header{
+      position:fixed;
+      width:100%;height:50px;
+      background-image: linear-gradient(to left,#F55858 , #FB984B 70%);
+      padding:0px 10px;
+      margin-top: -1px;
+    }
+    .iner_header{
+      width:100%;height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      
+    }
+     .group_3{
+      width:80%;height:50px;
+      display:flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .group_3 img{
+      width:30px;height:30px;
+      
+filter: invert(1000%)sepia(9%)saturate(0%) hue-rotate(27deg)brightness(100%)contrast(100%);
+    }
+    .group_3 p{
+      color:white;
+      
+    }
+    .dot3{
+      width:30px;height:30px;
+     
+    }
+
+    #not_found{
+      margin-top:48px;
+      margin-left: 10px;
+      font-size:1rem;
+    }
+    
+    
+footer{
+      width:100%;
+      height:50px;
+      background:white;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-between;
+      position:fixed;
+      bottom: 0px;
+      border:1px solid gray;
+       box-shadow:0px 1px 10px black;
+      
+       
+    }
+    
+    .footer_div{
+      width:50%;height:50px;
+      
+      display:flex;
+      align-items: center;
+      justify-content: center;
+      justify-content: space-aroun;
+      transition:all 1s,0s;
+
+      
+    }
+    footer .footer_div img{
+      width:27px;height:27px;
+
+    }
+    footer .footer_div p{
+      position:relative;
+      font-size: 13px;
+      margin-left: 4px;
+      font-size: 16px;
+      color:black;
+    }
+    a{
+      text-decoration: none;
+      color:black;
+    }
+   
+    .footer_div:active{
+     {
+      background-color:green;
+    }
+    }
+    
+    
+    button{
+     transition: all 0s 0s;
+     min-width:50%;
+     border:none;
+     background-color: transparent;
+     height:38px;
+     margin-left:10px;
+    }
+    .footer:active{
+      height:750px;
+    }
+   #need{
+     transition: all 0s 0s;
+    }
+    #need:active{
+      background-color: darkslateblue;
+    }  
+    #send:active{
+      background-color: darkslateblue;
+    }
+     #send:active select{
+       height:89px;
+     }
+
+     .first_container {
+       width:100%;height:80px;
+       
+       text-align: center;
+       font-size: 14px;
+       padding:20px 0px;
+     }
+     .second{
+       width:100%;height:40px;
+       background-color:rgba(255,255,200);
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       color:maroon;
+     }
+     .third{
+       width:100%;height:65px;
+       background-color: white;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+     }
+     
+     select{
+      width:88%;height:40px;
+      box-shadow: 2px -1px 2px gray;
+      border-radius: 5px;
+    }
+    
+
+
+
+     .long_image img{
+       width:100%;height:auto;
+     }
+     #fourth_item{
+       margin-top: 18px;
+     }
+     
+     .fiveth{
+       width:100%;height:40px;
+       background-color:rgba(255,255,200);
+       display:flex;
+       
+       align-items: center;
+       margin-top: 18px;
+     }
+     .fiveth p{
+       padding-left:15px;
+     }
+     .sixth{
+       width:100%;min-height:150px;
+       background-color: white;
+       
+       padding:22px 13px 25px 15px;
+       border-bottom:1px solid gray;
+     }
+     table {
+       width:90%;
+       
+     }
+     th{
+       float:left;
+     }
+     th,td{
+       padding-top:7px;
+     }
+     .seventh img{
+       width:100%;height:auto;
+      
+       
+     }
+     .eighth{
+       width:100%;
+       min-height:100px;
+       background-color: white;
+       border-bottom:1px solid darkgray;
+       padding-bottom:90px;
+     }
+    </style>
+    </head>
+    <body>
+      
+      
+         <div class="container">
+    <header>
+      <div class="iner_header">
+        <div class="group_3">
+          
+          <a href="student.html">
+          <img sizes="" srcset="" src="/Asset/triple_line.png" alt=""></a>
+          <p>MY ATTANDANCE (STUDENTS)</p>
+        </div>
+      </div>
+    </header>
+
+
+
+
+         <div id="not_found">
+           
+         </div>
+<div class="first_container">
+  <p>Select the <b>Subject</b> And <b>Month</b> to view the attendance of specific details.</p>
+</div>
+<div class="second">
+  <p>Subject</p>
+</div>
+
+    <div class="third">
+      <select name="" id="" class="">
+        <option value="">---Select---</option>
+      </select>
+    </div>
+    
+    <div class="second"id="fourth_item">
+  <p>Month</p>
+</div>
+    
+    
+     <div class="third">
+      <select name="" id="" class="">
+        <option value="">All</option>
+      </select>
+    </div>
+    
+        <div class="fiveth"id="fiveth_item">
+  <p>Comulative Attendance</p>
+</div>
+    
+    
+    <div class="sixth">
+      <table class="" border="0">
+        <tr>
+          <th>Month</th>
+          <td>All</td>
+        </tr>
+        <tr>
+          <th>Total Present</th>
+          <td>211</td>
+        </tr>
+        <tr>
+          <th>Total Absent</th>
+          <td>34</td>
+        </tr>
+        <tr>
+          <th>Total Lecture</th>
+          <td>245</td>
+        </tr>
+        <tr>
+          <th>Percentage</th>
+          <td>86%</td>
+        </tr>
+    
+      </table>
+    
+    </div>
+    
+    
+    <div class="seventh">
+             <img src="/Asset/percentage_around.png" alt="" />
+    </div>
+    <div class="eighth">
+      
+    </div>
+    
+    
+    
+  <footer>
+   <div class="footer_div"id="send">
+    <img src="/Asset/eye1.png" alt="" />
+           <button type="submit"id="btn">View Attendence 
+           </button>
+
+      </div>
+
+
+      <div class="footer_div"id="send">
+    <img src="/Asset/reset.png" alt="" />
+           <button type="reset"id="btn">Reset
+           </button>
+
+      </div>
+    </footer>
+    
+    
+    </body>
+    </html>
